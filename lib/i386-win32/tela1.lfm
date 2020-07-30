@@ -1,0 +1,130 @@
+object Form1: TForm1
+  Left = 456
+  Height = 270
+  Top = 208
+  Width = 407
+  Caption = 'Churn'
+  ClientHeight = 270
+  ClientWidth = 407
+  LCLVersion = '2.0.6.0'
+  object Label1: TLabel
+    Left = 128
+    Height = 15
+    Top = 32
+    Width = 52
+    Caption = 'Pessoas P'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clRed
+    Font.Height = -12
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object EditValor1: TEdit
+    Left = 24
+    Height = 23
+    Top = 24
+    Width = 88
+    TabOrder = 0
+  end
+  object EditValor2: TEdit
+    Left = 24
+    Height = 23
+    Top = 64
+    Width = 88
+    TabOrder = 1
+  end
+  object Label2: TLabel
+    Left = 128
+    Height = 15
+    Top = 72
+    Width = 53
+    Caption = 'Pessoas A'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlue
+    Font.Height = -12
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object BitBtn1: TBitBtn
+    Left = 24
+    Height = 30
+    Top = 104
+    Width = 88
+    Caption = 'Calcular churn'
+    OnClick = BitBtn1Click
+    TabOrder = 2
+  end
+  object Label3: TLabel
+    Left = 24
+    Height = 15
+    Top = 144
+    Width = 123
+    Caption = 'Porcentagem churn %'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -12
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object EditValor3: TLabel
+    Left = 24
+    Height = 24
+    Top = 168
+    Width = 112
+    AutoSize = False
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -12
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 192
+    Height = 15
+    Top = 32
+    Width = 198
+    Caption = '[Pessoas que deixaram seu negócio]'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -12
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 192
+    Height = 15
+    Top = 72
+    Width = 171
+    Caption = '[Pessoas ativas no seu negócio]'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -12
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    OnClick = Label5Click
+  end
+end
