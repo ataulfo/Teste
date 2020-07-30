@@ -49,7 +49,7 @@ begin
   Valor3:= (Valor1/Valor2)*100;
   EditValor3.Caption:=('Churn Rate '+FloaTtoStr(Valor3)+'%');
   except
-   ShowMessage('Um dos campos estão vazios ou valor informado e inválido, por favor informe um valor inteiro');
+   ShowMessage('Um dos campos estão vazios ou valor informado e inválido, por favor informe um valor inteiro :)');
   end;
 
 end;
